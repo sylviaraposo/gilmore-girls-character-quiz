@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+	<link rel="stylesheet" href="styles.css"/>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;400&display=swap" rel="stylesheet"> 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    
+    <script src="https://kit.fontawesome.com/a763f0788e.js" crossorigin="anonymous"></script>
+    <title>&#9825; Gilmore Girls Character Quiz &#9825;</title>
+</head>
+<body>
+    
+    <header>
+        <div class="headerText">
+            <h1>Which <span class="gilmoreGirls">Gilmore Girls</span> Character Are You</h1>
+            <a href="#quiz" class='getStarted'>
+                Click to find out!
+            </a>
+        </div>
+    </header>
+    
+    <section class="quiz" id="quiz">
+        <div class="wrapper">
+            <form action="">
+                <fieldset class="choices">
+					<legend>How much coffee do you drink?</legend>
+                        <ul>
+                            <li class="answerOption">
+                                <input type="radio" id="rory" value="rory" name="firstAnswer">
+                                <label for="rory">A full pot, throughout the day</label>
+                            </li>
+                            <li class="answerOption">
+                                <input type="radio" id="luke" value="luke" name="firstAnswer">
+                                <label for="luke">One caffeine free cup</label>
+                            </li>
+                            <li class="answerOption">
+                                <input type="radio" id="emily" value="emily" name="firstAnswer">
+                                <label for="emily">I'll take a tea, thank you</label>
+                            </li>
+                            <li class="answerOption">
+                                <input type="radio" id="lorelai" value="lorelai" name="firstAnswer">
+                                <label for="lorelai">It's basically running through my viens</label>
+                            </li>
+                            <li class="answerOption">
+                                <input type="radio" id="sookie" value="sookie" name="firstAnswer">
+                                <label for="sookie">I'd prefer a glass of wine</label>
+                            </li>
+                            <li class="answerOption">
+                                <input type="radio" id="paris" value="paris" name="firstAnswer">
+                                <label for="paris">I have more than enough energy without the added caffeine</label>
+                            </li>
+                        </ul>
+				</fieldset>
+
+				<fieldset class="choices">
+					<legend>Take-out for dinner! What are you ordering?</legend>
+                        <ul>
+                            <li class="answerOption">
+                                <input type="radio" id="rorySecondAnswer" value="rory" name="secondAnswer">
+                                <label for="rorySecondAnswer">Local indian food</label>
+                            </li>
+                            <li class="answerOption">
+                                <input type="radio" id="lukeSecondAnswer" value="luke" name="secondAnswer">
+                                <label for="lukeSecondAnswer">A healthy protein and salad</label>
+                            </li>
+                            <li class="answerOption">
+                                <input type="radio" id="emilySecondAnswer" value="emily" name="secondAnswer">
+                                <label for="emilySecondAnswer">I don't eat take-out</label>
+                            </li>
+                            <li class="answerOption">
+                                <input type="radio" id="lorelaiSecondAnswer" value="lorelai" name="secondAnswer">
+                                <label for="lorelaiSecondAnswer">Anything and everything off the menu from the best cheap take-out</label>
+                            </li>
+                            <li class="answerOption">
+                                <input type="radio" id="sookieSecondAnswer" value="sookie" name="secondAnswer">
+                                <label for="sookieSecondAnswer">I'd rather prepare a homecooked meal</label>
+                            </li>
+                            <li class="answerOption">
+                                <input type="radio" id="parisSecondAnswer" value="paris" name="secondAnswer">
+                                <label for="parisSecondAnswer">Pizza and cheesy bread</label>
+                            </li>
+                        </ul>
+				</fieldset>
+
+                <fieldset class="choices">
+					<legend>How are you spending your Friday night?</legend>
+                        <ul>
+                            <li class="answerOption">
+                                <input type="radio" id="roryThirdAnswer" value="rory" name="thirdAnswer">
+                                <label for="roryThirdAnswer">Getting some laundry done and ordering take-out</label>
+                            </li>
+                            <li class="answerOption">
+                                <input type="radio" id="lukeThirdAnswer" value="luke" name="thirdAnswer">
+                                <label for="lukeThirdAnswer">Working</label>
+                            </li>
+                            <li class="answerOption">
+                                <input type="radio" id="emilyThirdAnswer" value="emily" name="thirdAnswer">
+                                <label for="emilyThirdAnswer">Organizing an event or gathering</label>
+                            </li>
+                            <li class="answerOption">
+                                <input type="radio" id="lorelaiThirdAnswer" value="lorelai" name="thirdAnswer">
+                                <label for="lorelaiThirdAnswer">Watching your favourite movies with your favourite snacks</label>
+                            </li>
+                            <li class="answerOption">
+                                <input type="radio" id="sookieThirdAnswer" value="sookie" name="thirdAnswer">
+                                <label for="sookieThirdAnswer">Cooking dinner for friends</label>
+                            </li>
+                            <li class="answerOption">
+                                <input type="radio" id="parisThirdAnswer" value="paris" name="thirdAnswer">
+                                <label for="parisThirdAnswer">Preparing my university application or researching job aspects</label>
+                            </li>
+
+                        </ul>
+				</fieldset>
+
+                <fieldset class="choices">
+					<legend>How have friends described you?</legend>
+                        <ul>
+                            <li class="answerOption">
+                                <input type="radio" id="roryFourthAnswer" value="rory" name="fourthAnswer">
+                                <label for="roryFourthAnswer">Friendly</label>
+                            </li>
+                            <li class="answerOption">
+                                <input type="radio" id="lukeFourthAnswer" value="luke" name="fourthAnswer">
+                                <label for="lukeFourthAnswer">Grumpy</label>
+                            </li>
+                            <li class="answerOption">
+                                <input type="radio" id="emilyFourthAnswer" value="emily" name="fourthAnswer">
+                                <label for="emilyFourthAnswer">High-maintenance</label>
+                            </li>
+                            <li class="answerOption">
+                                <input type="radio" id="lorelaiFourthAnswer" value="lorelai" name="fourthAnswer">
+                                <label for="lorelaiFourthAnswer">Funny</label>
+                            </li>
+                            <li class="answerOption">
+                                <input type="radio" id="sookieFourthAnswer" value="sookie" name="fourthAnswer">
+                                <label for="sookieFourthAnswer">Quirky</label>
+                            </li>
+                            <li class="answerOption">
+                                <input type="radio" id="parisFourthAnswer" value="paris" name="fourthAnswer">
+                                <label for="parisFourthAnswer">Uptight</label>
+                            </li>
+                        </ul>
+				</fieldset>
+
+                <input type="submit" value="Results">
+                <section class="results"></section>
+                <button class="restartButton">Restart</button>
+            </form>            
+        </div>
+    </section>
+
+    <footer>
+        <p>Made by Sylvia &#9825; Created at <a href='https://junocollege.com/'>Juno College</a></p>
+    </footer>
+
+    <script src="script.js"></script> 
+</body>
+</html>

@@ -1,0 +1,197 @@
+html{line-height:1.15;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}article,aside,footer,header,nav,section{display:block}h1{font-size:2em;margin:.67em 0}figcaption,figure,main{display:block}figure{margin:1em 40px}hr{box-sizing:content-box;height:0;overflow:visible}pre{font-family:monospace,monospace;font-size:1em}a{background-color:transparent;-webkit-text-decoration-skip:objects}abbr[title]{border-bottom:none;text-decoration:underline;text-decoration:underline dotted}b,strong{font-weight:inherit}b,strong{font-weight:bolder}code,kbd,samp{font-family:monospace,monospace;font-size:1em}dfn{font-style:italic}mark{background-color:#ff0;color:#000}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}audio,video{display:inline-block}audio:not([controls]){display:none;height:0}img{border-style:none}svg:not(:root){overflow:hidden}button,input,optgroup,select,textarea{font-family:sans-serif;font-size:100%;line-height:1.15;margin:0}button,input{overflow:visible}button,select{text-transform:none}button,html [type=button],[type=reset],[type=submit]{-webkit-appearance:button}button::-moz-focus-inner,[type=button]::-moz-focus-inner,[type=reset]::-moz-focus-inner,[type=submit]::-moz-focus-inner{border-style:none;padding:0}button:-moz-focusring,[type=button]:-moz-focusring,[type=reset]:-moz-focusring,[type=submit]:-moz-focusring{outline:1px dotted ButtonText}fieldset{padding:.35em .75em .625em}legend{box-sizing:border-box;color:inherit;display:table;max-width:100%;padding:0;white-space:normal}progress{display:inline-block;vertical-align:baseline}textarea{overflow:auto}[type=checkbox],[type=radio]{box-sizing:border-box;padding:0}[type=number]::-webkit-inner-spin-button,[type=number]::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}[type=search]::-webkit-search-cancel-button,[type=search]::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}details,menu{display:block}summary{display:list-item}canvas{display:inline-block}template{display:none}[hidden]{display:none}
+
+.clearfix:after {visibility: hidden; display: block; font-size: 0; content: ''; clear: both; height: 0; }
+
+html { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;}
+
+*, *:before, *:after {box-sizing: inherit}
+
+.sr-only { position: absolute; width: 1px; height: 1px; margin: -1px; border: 0; padding: 0; white-space: nowrap; clip-path: inset(100%); clip: rect(0 0 0 0); overflow: hidden;}
+
+@font-face {
+    font-family: "Sackers Antique Roman Solid AT";
+    src: url("./assets/Sackers\ Antique\ Roman\ Solid\ AT.otf");
+}
+
+html {
+    
+    
+    font-family: 'Raleway', sans-serif;
+    font-size: 125%;
+    scroll-behavior: smooth;
+}
+
+ul li {
+    list-style: none;
+}
+
+header {
+    background:linear-gradient(0deg, #ffead956, #ffead956), 
+    url(./assets/Gilmore-Girls-Getaway-Top-Banner.jpg);
+    background-size: cover;
+    background-position: center;
+    height:100vh;
+}
+
+.headerText{
+    color: #814e35ee;
+    text-align: center;
+    padding-top:28%;
+} 
+
+
+header h1 {
+    font-size:2rem;
+    letter-spacing: 1.8px;
+    padding:30px;
+    margin:auto;
+    background-color: #ffead981;
+    font-weight: 200;
+    border: 2px solid #814e35ee;
+}
+
+.gilmoreGirls {
+    font-size:6rem;
+    font-family: "Sackers Antique Roman Solid AT", serif;
+    display: block;
+    width: 100%;
+    padding:10px 20px;
+}
+
+.getStarted {
+    font-size: 1.2rem;
+    border-radius: 40px;
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+    color: #ffead9;
+    background-color: #814e35ee;
+    cursor: pointer;
+    padding: 10px 50px;
+    border: 2px solid #ffead9e5;
+    font-weight: 200;
+}
+
+.getStarted:hover{
+    background-color: #583726ee;
+    font-weight: 400;
+}
+
+.wrapper {
+	background:#ffead9e5;
+	margin: 0 auto;
+	padding: 50px;
+	width: 60%;
+	text-align: center;
+    border: 2px #814e35a1 solid;
+}
+
+.quiz {
+    background:linear-gradient(0deg, #ffead956, #ffead956), 
+    url(./assets/4866.jpg);
+    background-size: cover;
+    padding: 50px;
+}
+
+form {    
+    color: #814e35ee;
+    /* text-align: left; */
+    text-align: center;
+}
+
+.choices  {    
+    border:none;
+    border-top:3px solid #814e352d;
+}
+
+ul {
+    padding-left: 10px;
+    font-size: 1rem;
+    margin: 10px 0 0;
+}
+
+ul li {
+    padding-bottom: 10px;
+}
+
+ul li:hover {
+    font-weight: 200;
+}
+
+legend{
+    text-align: center;
+    width: 60%;
+    font-size:2.4rem;
+    padding:10px 15px;
+    margin:0 auto;
+    margin-top: 50px;
+    font-family: "Sackers Antique Roman Solid AT", serif;
+}
+
+
+input[type="submit"], .restartButton {
+    border-radius: 40px;
+    display: block;
+    font-size: 1.5rem;
+    font-family: 'Raleway', sans-serif;
+    color: #ffead9;
+    background-color: #814e35ee;
+    cursor: pointer;
+    padding: 10px 50px;
+    margin: 30px auto 20px;
+    border: 2px solid #ffead9e5;
+    font-weight: 200;
+}
+
+.restartButton {
+    opacity: 70%;
+}
+
+input[type="submit"]:hover, .restartButton:hover {
+    background-color: #583726ee;
+    font-weight: 400;
+}
+
+.results {
+    width: 70%;
+    padding:20px 50px;
+    margin:0 auto;
+    margin-top:-100px;
+    background-color: #ffead9;
+    border: 2px #814e35a1 solid;
+    display: none;
+    text-align: center;
+}
+
+#characterName {
+    text-transform: capitalize;
+    font-weight: 600;
+    color: #583625;
+}
+
+a {
+    text-decoration: none;
+    color: #ffead9b4;
+}
+
+a:hover {
+    font-weight: 600;
+}
+
+img {
+    width: 100%;
+}
+
+
+footer {
+    width:100%;
+    display: flex;
+    background-color: #583726ee;
+    bottom:0;
+    font-size: .8rem;
+}
+
+footer p {
+	margin: 0 auto;  
+    padding: 10px;
+    color: #ffead9b4;
+}
