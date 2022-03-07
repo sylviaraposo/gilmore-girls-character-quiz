@@ -36,7 +36,8 @@ header {
 .headerText{
     color: #814e35ee;
     text-align: center;
-    padding-top:28%;
+
+    padding-top:20%;
 } 
 
 
@@ -194,4 +195,23 @@ footer p {
 	margin: 0 auto;  
     padding: 10px;
     color: #ffead9b4;
+}
+
+@media (max-width: 690px) { 
+    .wrapper {
+        width: 100%;
+        padding:0;
+    }
+
+    h1 {
+        font-size: 1.6rem;
+    }
+
+    legend {
+        font-size:1.7rem;
+    }
+
+    hr {
+        display: none;
+    }
 }
